@@ -1,0 +1,167 @@
+.row:before, .row:after {
+    display: flex !important;
+    }
+    
+p {
+    text-align: justify;
+}
+
+.white_text {
+    color: white;
+}
+
+.left_align {
+    text-align: left;
+}
+
+.right_align {
+    align-items: right;
+}
+
+.dk_blue_text {
+    color: #123C69;
+}
+
+.padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    padding-top: 0px;
+}
+
+body {
+    margin-bottom: 80px;
+ }
+
+.tab {
+    text-indent: 50px;
+}
+
+.test {
+    display: block;
+    margin: 0;
+    padding:0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4, h5 {
+    /* text-decoration: underline; */
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.small_image {
+    height: 100%;
+    width: 100%;
+}
+
+.chart {
+    height:450px;
+    width: 1100px;
+    align-self: center;
+    margin-bottom: -50px;
+}
+
+.header img {
+    position: relative;
+}
+
+.header h1 {
+    float: left;
+}
+
+.pic_header {
+    width: 100px;
+    float: right;
+    margin-top: 0px;
+}
+
+.bg_blue {
+    background-color:#123C69;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+.blue_btm_border {
+    border-style: solid;
+    border-color: black black blue black;
+    border-width: 5px;
+}
+
+.blue_top_border {
+    border-style: solid;
+    border-color: blue black black black;
+    border-width: 5px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.vert_center {
+    margin: auto;
+    width: 50%;
+}
+
+hr{
+    height: 1px;
+    background-color: blue;
+    border: none;
+}
+
+.selected {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.figHover:hover {
+    box-shadow: 5px 5px 10px gray;
+}
+
+#mapid {
+    width: 1000px;
+    height: 500px;
+    margin: 25px;
+}
+
+@media (max-width: 910px) {
+    .chart {
+        height: 300px;
+        width: 768px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .chart {
+        height: 300px;
+        width: 768px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 630px) {
+    .chart {
+        height: 200px;
+        width: 630px;
+        align-self: center;
+    }
+}
